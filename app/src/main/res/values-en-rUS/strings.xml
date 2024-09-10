@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lets Split!</string>
+    <string name="hint_num_pessoas">Number of people</string>
+    <string name="hint_valor">Insert check value</string>
+    <string name="bt_falar">Speak</string>
+    <string name="bt_compartilhar">Share</string>
+</resources>

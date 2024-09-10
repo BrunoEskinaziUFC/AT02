@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vamos Rachar</string>
+    <string name="hint_num_pessoas">Número de pessoas</string>
+    <string name="hint_valor">Insira o valor da conta</string>
+    <string name="bt_falar">Falar</string>
+    <string name="bt_compartilhar">Compartilhar</string>
+
+</resources>
