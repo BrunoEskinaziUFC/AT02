@@ -8,12 +8,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="176sp"
+        android:layout_width="291sp"
+        android:layout_height="48sp"
+        android:layout_marginBottom="13sp"
         android:text="@string/app_name"
+        android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/edtConta"
+        app:layout_constraintBottom_toTopOf="@+id/textValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -34,9 +35,9 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84sp"
-        android:layout_marginEnd="70sp"
-        android:layout_marginBottom="83sp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="83dp"
         android:clickable="true"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,6 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40sp"
+        android:accessibilityHeading="false"
         android:contentDescription="@string/bt_compartilhar"
         android:onClick="clickFalar"
         android:text="@string/bt_compartilhar"
@@ -59,33 +61,33 @@
 
     <EditText
         android:id="@+id/edtConta"
-        android:layout_width="wrap_content"
-        android:layout_height="48sp"
+        android:layout_width="253sp"
+        android:layout_height="66sp"
         android:ems="10"
         android:hint="@string/hint_valor"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
 
     <EditText
         android:id="@+id/textPeople"
-        android:layout_width="wrap_content"
-        android:layout_height="48sp"
-        android:layout_marginStart="100sp"
-        android:layout_marginTop="104sp"
-        android:layout_marginEnd="101sp"
-        android:layout_marginBottom="27sp"
+        android:layout_width="234sp"
+        android:layout_height="65sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="27dp"
         android:ems="10"
         android:hint="@string/hint_num_pessoas"
         android:inputType="number"
-        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/edtConta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.853" />
 
     <TextView
         android:id="@+id/textValue"
@@ -93,7 +95,7 @@
         android:layout_height="32sp"
         android:layout_marginStart="158sp"
         android:layout_marginEnd="158sp"
-        android:layout_marginBottom="36sp"
+        android:layout_marginBottom="24sp"
         android:text="0.0"
         android:textAlignment="center"
         android:textSize="24sp"
